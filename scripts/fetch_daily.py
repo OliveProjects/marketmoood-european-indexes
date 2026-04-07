@@ -154,6 +154,10 @@ def main():
         })
         time.sleep(0.4)
 
+    if len(indices) < 5:
+        print(f"  Only {len(indices)} index/indices fetched (expected 9) — skipping save to preserve existing data.")
+        return
+
     save("data/european-history.json", {
         "fetched_at": int(time.time() * 1000),
         "indices": indices,
