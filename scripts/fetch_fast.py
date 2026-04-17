@@ -22,6 +22,9 @@ YAHOO_BASE = "https://query1.finance.yahoo.com/v8/finance/chart/"
 
 SYMBOLS = {
     "OMXS30":        "%5EOMXS30",
+    "OMXC25":        "%5EOMXC25",
+    "OBX":           "%5EOBX",
+    "OMXH25":        "%5EOMXH25",
     "DAX 40":        "%5EGDAXI",
     "FTSE 100":      "%5EFTSE",
     "CAC 40":        "%5EFCHI",
