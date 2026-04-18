@@ -37,9 +37,9 @@ STOOQ_SYMBOLS = {
 }
 
 STOOQ_TO_YAHOO = {
-    "^omxs30":   "%5EOMXS30",
+    "^omxs30":   "%5EOMX",
     "^omxc25":   "%5EOMXC25",
-    "^obx":      "%5EOBX",
+    "^obx":      "OBX.OL",
     "^omxh25":   "%5EOMXH25",
     "^dax":      "%5EGDAXI",
     "^ukx":      "%5EFTSE",

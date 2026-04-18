@@ -21,9 +21,9 @@ HEADERS = {
 YAHOO_BASE = "https://query1.finance.yahoo.com/v8/finance/chart/"
 
 SYMBOLS = {
-    "OMXS30":        "%5EOMXS30",
+    "OMXS30":        "%5EOMX",
     "OMXC25":        "%5EOMXC25",
-    "OBX":           "%5EOBX",
+    "OBX":           "OBX.OL",
     "OMXH25":        "%5EOMXH25",
     "DAX 40":        "%5EGDAXI",
     "FTSE 100":      "%5EFTSE",
