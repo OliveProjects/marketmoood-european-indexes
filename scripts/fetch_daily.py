@@ -34,6 +34,14 @@ STOOQ_SYMBOLS = {
     "SMI":           "^smi",
     "IBEX 35":       "^ibex",
     "FTSE MIB":      "^ftsemib",
+    "ATX":           "^atx",
+    "BEL 20":        "^bel20",
+    "PSI 20":        "^psi20",
+    "WIG 20":        "^wig20",
+    "BUX":           "^bux",
+    "PX":            "^px",
+    "BET":           "^bet",
+    "ATHEX":         "^ath",
 }
 
 STOOQ_TO_YAHOO = {
@@ -49,6 +57,14 @@ STOOQ_TO_YAHOO = {
     "^smi":      "%5ESSMI",
     "^ibex":     "%5EIBEX",
     "^ftsemib":  "FTSEMIB.MI",
+    "^atx":      "%5EATX",
+    "^bel20":    "%5EBFX",
+    "^psi20":    "%5EPSI20",
+    "^wig20":    "%5EWIG20",
+    "^bux":      "%5EBUX",
+    "^px":       "%5EPX",
+    "^bet":      "%5EBETI",
+    "^ath":      "%5EATG",
 }
 
 
@@ -164,7 +180,7 @@ def main():
         })
         time.sleep(0.4)
 
-    if len(indices) < 8:
+    if len(indices) < 16:
         print(f"  Only {len(indices)} index/indices fetched (expected 12) — skipping save to preserve existing data.")
         return
 

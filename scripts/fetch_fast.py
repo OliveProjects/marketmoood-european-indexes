@@ -33,6 +33,14 @@ SYMBOLS = {
     "SMI":           "%5ESSMI",
     "IBEX 35":       "%5EIBEX",
     "FTSE MIB":      "FTSEMIB.MI",
+    "ATX":           "%5EATX",
+    "BEL 20":        "%5EBFX",
+    "PSI 20":        "%5EPSI20",
+    "WIG 20":        "%5EWIG20",
+    "BUX":           "%5EBUX",
+    "PX":            "%5EPX",
+    "BET":           "%5EBETI",
+    "ATHEX":         "%5EATG",
 }
 
 
