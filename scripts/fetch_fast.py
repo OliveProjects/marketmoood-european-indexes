@@ -36,8 +36,6 @@ SYMBOLS = {
     "ATX":           "%5EATX",
     "BEL 20":        "%5EBFX",
     "PSI 20":        "PSI20.LS",
-    "BUX":           "%5EBUX",
-    "BET":           "%5EBETI",
     "ATHEX":         "GD.AT",
 }
 

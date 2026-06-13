@@ -37,8 +37,6 @@ STOOQ_SYMBOLS = {
     "ATX":           "^atx",
     "BEL 20":        "^bel20",
     "PSI 20":        "^psi20",
-    "BUX":           "^bux",
-    "BET":           "^bet",
     "ATHEX":         "^ath",
 }
 
@@ -58,8 +56,6 @@ STOOQ_TO_YAHOO = {
     "^atx":      "%5EATX",
     "^bel20":    "%5EBFX",
     "^psi20":    "PSI20.LS",
-    "^bux":      "%5EBUX",
-    "^bet":      "%5EBETI",
     "^ath":      "GD.AT",
 }
 
@@ -179,8 +175,8 @@ def main():
         })
         time.sleep(0.4)
 
-    if len(indices) < 14:
-        print(f"  Only {len(indices)} index/indices fetched (expected 18) — skipping save to preserve existing data.")
+    if len(indices) < 12:
+        print(f"  Only {len(indices)} index/indices fetched (expected 16) — skipping save to preserve existing data.")
         return
 
     save("data/european-history.json", {
