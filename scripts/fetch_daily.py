@@ -59,12 +59,12 @@ STOOQ_TO_YAHOO = {
     "^ftsemib":  "FTSEMIB.MI",
     "^atx":      "%5EATX",
     "^bel20":    "%5EBFX",
-    "^psi20":    "%5EPSI20",
+    "^psi20":    "PSI20.LS",
     "^wig20":    "%5EWIG20",
     "^bux":      "%5EBUX",
     "^px":       "%5EPX",
     "^bet":      "%5EBETI",
-    "^ath":      "%5EATG",
+    "^ath":      "GD.AT",
 }
 
 
