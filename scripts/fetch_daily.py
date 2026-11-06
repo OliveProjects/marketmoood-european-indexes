@@ -24,7 +24,6 @@ STOOQ_BASE = "https://stooq.com/q/d/l/"
 STOOQ_SYMBOLS = {
     "OMXS30":        "^omxs30",
     "OMXC25":        "^omxc25",
-    "OBX":           "^obx",
     "OMXH25":        "^omxh25",
     "DAX 40":        "^dax",
     "FTSE 100":      "^ukx",
@@ -43,7 +42,6 @@ STOOQ_SYMBOLS = {
 STOOQ_TO_YAHOO = {
     "^omxs30":   "%5EOMX",
     "^omxc25":   "%5EOMXC25",
-    "^obx":      "OBX.OL",
     "^omxh25":   "%5EOMXH25",
     "^dax":      "%5EGDAXI",
     "^ukx":      "%5EFTSE",
@@ -176,7 +174,7 @@ def main():
         time.sleep(0.4)
 
     if len(indices) < 12:
-        print(f"  Only {len(indices)} index/indices fetched (expected 16) — skipping save to preserve existing data.")
+        print(f"  Only {len(indices)} index/indices fetched (expected 15) — skipping save to preserve existing data.")
         return
 
     save("data/european-history.json", {
